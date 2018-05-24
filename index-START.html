@@ -66,8 +66,8 @@
       speed.textContent = data.coords.speed;
       arrow.style.transform = `rotate(${data.coords.heading}deg)`;
     }, (err) => {
-      console.err(err);
-      alert('Allowing location is necessary!')
+      console.error(err);
+      alert('Allowing location is necessary!');
     });
 
   </script>
